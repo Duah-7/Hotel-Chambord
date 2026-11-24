@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Découvrez l'Hôtel Chambord : chambres, restaurant, spa et activités au cœur du Domaine de Chambord.">
+  <title>Hôtel Chambord | Accueil</title>
+  
+  <style>
+    :root{--dark:#242424;--gold:#b69a62;--cream:#f6f3ed;--text:#333}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);line-height:1.65}
+    a{color:inherit}header{min-height:270px;background:linear-gradient(#0005,#0005),url('https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1800&q=85') center/cover;display:flex;align-items:center;justify-content:center;text-align:center;color:white;padding:30px}
+    header h1{font-family:Georgia,serif;font-size:clamp(2rem,5vw,3.6rem);margin:0;text-shadow:0 2px 8px #0008}header p{font-size:1.1rem;margin:8px 0 0}
+    nav{position:sticky;top:0;z-index:10;background:#fff;box-shadow:0 2px 10px #0001;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:10px max(5%,calc((100% - 1100px)/2))}
+    .brand{font-family:Georgia,serif;font-size:1.05rem;letter-spacing:2px;text-decoration:none;color:var(--dark);white-space:nowrap}.brand span{color:var(--gold)}nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;flex-wrap:wrap}nav a{text-decoration:none;font-weight:700;font-size:.95rem}nav a:hover,.btn:hover{color:var(--gold)}
+    main{max-width:1100px;margin:auto;padding:20px}section{padding:55px 0;scroll-margin-top:85px}.intro{text-align:center;max-width:850px;margin:auto}.intro h2,.section-title{font-family:Georgia,serif;font-size:2rem;text-align:center;color:var(--dark);margin:0 0 18px}
+    .feature{display:grid;grid-template-columns: minmax(0,1fr) minmax(0,1.25fr);align-items:center;gap:35px;margin:0 0 55px}.feature.reverse{grid-template-columns:minmax(0,1.25fr) minmax(0,1fr)}.feature.reverse img{order:2}.feature img{width:100%;height:300px;object-fit:cover;border-radius:5px}.feature h3{font-family:Georgia,serif;font-size:1.5rem;color:var(--dark);margin-top:0}.btn{display:inline-block;background:var(--dark);color:#fff;text-decoration:none;padding:10px 18px;border-radius:3px;font-weight:bold;margin-top:8px}.btn:hover{background:var(--gold);color:#fff}
+    .activities{background:var(--cream);padding:45px 25px;border-radius:5px}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:25px}.gallery img{width:100%;height:170px;object-fit:cover;border-radius:4px}.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.review{background:var(--cream);padding:22px;border-radius:5px;text-align:center}.stars{color:#b38b36;letter-spacing:3px}
+    footer{background:#222;color:#fff;padding:35px 20px;text-align:center}footer a{color:#fff;text-decoration:none;margin:0 10px}footer a:hover{color:var(--gold)}footer p{margin:10px 0 0;color:#ddd;font-size:.9rem}
+    @media(max-width:700px){nav{position:static;flex-direction:column}nav ul{justify-content:center;gap:12px}.feature,.feature.reverse{grid-template-columns:1fr;gap:18px}.feature.reverse img{order:0}.feature img{height:230px}.gallery{grid-template-columns:repeat(2,1fr)}.reviews{grid-template-columns:1fr}section{padding:35px 0}}
+  </style>
+</head>
+<body>
+  <header id="accueil"><div><h1>Hôtel Chambord</h1><p>Au cœur du Domaine de Chambord</p></div></header>
+  <nav aria-label="Navigation principale">
+    <a href="#accueil" class="brand" aria-label="Accueil Hôtel Chambord">HÔTEL <span>CHAMBORD</span></a>
+    <ul>
+      <li><a href="#accueil">Accueil</a></li><li><a href="#chambres">Chambres</a></li><li><a href="#restaurant">Restaurant</a></li><li><a href="#spa">Spa</a></li><li><a href="#activites">Activités</a></li><li><a href="#avis">Avis</a></li><li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="intro"><h2>Bienvenue à l'Hôtel Chambord</h2><p>Bienvenue à l'Hôtel Chambord, situé au cœur d'un magnifique domaine privé de plus de 7 000 hectares. En pleine campagne française, profitez d'une escapade unique. L'hôtel conjugue confort moderne et charme authentique, dans le respect de l'architecture des châteaux de la Loire et de l'environnement naturel exceptionnel du domaine.</p></section>
+    <section id="chambres" class="feature"><img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1000&q=85" alt="Chambre élégante de l'hôtel" loading="lazy"><div><h3>Découvrez nos différentes chambres</h3><p>Découvrez l'élégance et la diversité de nos chambres. Chaque hébergement a été conçu pour offrir un confort raffiné et une expérience inoubliable, mêlant charme historique et modernité.</p><p>Choisissez parmi nos chambres et suites, dont certaines offrent une vue imprenable sur le château ou la rivière.</p></div></section>
+    <section id="restaurant" class="feature reverse"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1000&q=85" alt="Salle de restaurant élégante" loading="lazy"><div><h3>Notre restaurant</h3><p>Découvrez notre restaurant, où chaque plat est préparé avec soin par notre chef. Nous privilégions les ingrédients locaux et de saison pour vous offrir une expérience culinaire agréable.</p><p>Pour un dîner romantique, un repas en famille ou une occasion spéciale, profitez d'un cadre raffiné et d'un service attentionné.</p></div></section>
+    <section id="spa" class="feature"><img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=85" alt="Espace spa et bien-être" loading="lazy"><div><h3>Un temple du repos : le spa du château</h3><p>Offrez-vous un moment de bien-être dans un cadre apaisant, où chaque détail est pensé pour votre confort.</p><p>Profitez de soins relaxants, de massages et d'installations modernes pour vous ressourcer après une journée de découverte.</p></div></section>
+    <section id="activites" class="activities"><h2 class="section-title">Activités autour de l'hôtel</h2><p class="intro">Découvrez les nombreuses activités à proximité de l'Hôtel Chambord. Amateur de nature, de sport ou d'histoire, profitez des balades à vélo, du golf, des vols en montgolfière et des visites du château.</p><div class="gallery"><img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=700&q=85" alt="Parcours de golf" loading="lazy"><img src="https://images.unsplash.com/photo-1504198453319-5ce911bafcde?auto=format&fit=crop&w=700&q=85" alt="Montgolfière dans le ciel" loading="lazy"><img src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=700&q=85" alt="Vélo pour une balade" loading="lazy"><img src="https://images.unsplash.com/photo-1511994298241-608e28f14fde?auto=format&fit=crop&w=700&q=85" alt="Promenade à vélo dans la nature" loading="lazy"></div></section>
+    <section id="avis"><h2 class="section-title">Témoignages</h2><p class="intro">La satisfaction de nos visiteurs est au cœur de nos priorités. Nous serons ravis de recueillir votre avis après votre séjour.</p><div class="reviews"><article class="review"><div class="stars">★★★★★</div><h3>Un cadre exceptionnel</h3><p>Un séjour placé sous le signe du calme et de la découverte.</p></article><article class="review"><div class="stars">★★★★★</div><h3>Un séjour agréable</h3><p>Une belle expérience dans un environnement remarquable.</p></article><article class="review"><div class="stars">★★★★★</div><h3>À découvrir</h3><p>Un lieu idéal pour profiter du domaine et se détendre.</p></article></div></section>
+  </main>
+  <footer id="contact"><h2>Contact et informations</h2><p>Pour toute demande, contactez directement l'établissement.</p><p><a href="#accueil">Accueil</a><a href="#chambres">Chambres</a><a href="#restaurant">Restaurant</a><a href="#spa">Spa</a><a href="#activites">Activités</a></p><p>© 2026 Hôtel Chambord. Site réalisé à des fins d'apprentissage, sans but commercial.</p></footer>
+</body>
+</html>
